@@ -1,33 +1,57 @@
+/* CSS HEX */
+:root {
+  --tiffany-blue: #07beb8ff;
+  --medium-turquoise: #3dccc7ff;
+  --davys-grey: #50514fff;
+  --snow: #fffcffff;
+  --radical-red: #ff1654ff;
+}
+#full-width {
+  width: 100%;
+}
+#almost-full-width {
+  width: 85%;
+}
+#half-width {
+  width: 50%;
+}
+#third-width {
+  width: 33.3%;
+}
 /* Generic starter basestyles */
 html {
-
+  font-size: 10px;
 }
+
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
-  font-family: ;
 }
-h1, h2, h3, h4 {
 
-}
+h1,
+h2,
+h3,
+h4 {}
+
 p {
   margin-top: 0;
 }
-ul {
 
-}
-a {
+ul {}
 
-}
-a:visited {
-}
-a:hover, a:focus {
+a {}
+
+a:visited {}
+
+a:hover,
+a:focus {
   text-decoration: underline;
 }
-a:active {
-}
+
+a:active {}
 
 img {
   max-width: 100%;
